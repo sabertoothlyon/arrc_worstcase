@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Worst-Case Scenario Game: Alaska Railroad Edition</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional if you have CSS -->
+</head>
+<body>
+    <div id="fullscreen-image" class="fullscreen">
+        <img src="wcsg.png" alt="Description of your image">
+    </div>
+        <div class="container"id="main-content" class="hidden">
+        <h1 class="game-title">The Worst-Case Survival Game<br>Alaska Railroad Edition</h1>
+
+        <div style="text-align: center;">
+            <div class="score-display">Team Points: <span id="scoreDisplay">0</span></div>
+            <div class="score-display">Diesel Decisions: <span id="mistakesDisplay">0</span></div>
+        </div>
+
+        <div class="categories" id="categories">
+            <!-- Categories will be populated by JavaScript -->
+        </div>
+
+        <div id="scenarioCard" class="scenario-card hidden">
+            <h2 id="categoryTitle"></h2>
+            <p id="scenarioText"></p>
+            <div id="options"></div>
+            <div id="feedback" class="feedback hidden"></div>
+            <button id="nextButton" class="hidden">Next</button>
+        </div>
+<a href="index.html">
+<button id="nextButton">Restart</button>
+</a>
+    </div>
+
+    <script src="script.js"></script> <!-- External JS file -->
+</body>
+</html>
